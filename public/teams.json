@@ -1,0 +1,478 @@
+[
+  {
+    "id": 0,
+    "name": "Boston College Eagles",
+    "stars": 1,
+    "conference": "ACC",
+    "color": "#961b32"
+  },
+  {
+    "id": 1,
+    "name": "California Golden Bears",
+    "stars": 3,
+    "conference": "ACC",
+    "color": "#064d36"
+  },
+  {
+    "id": 2,
+    "name": "Clemson Tigers",
+    "stars": 4,
+    "conference": "ACC",
+    "color": "#ee6b13"
+  },
+  {
+    "id": 3,
+    "name": "Duke Blue Devils",
+    "stars": 3,
+    "conference": "ACC",
+    "color": "#133c8b"
+  },
+  {
+    "id": 4,
+    "name": "Florida State Seminoles",
+    "stars": 3,
+    "conference": "ACC",
+    "color": "#742a3b"
+  },
+  {
+    "id": 5,
+    "name": "Georgia Tech Yellow Jackets",
+    "stars": 3,
+    "conference": "ACC",
+    "color": "#b29243"
+  },
+  {
+    "id": 6,
+    "name": "Louisville Cardinals",
+    "stars": 4,
+    "conference": "ACC",
+    "color": "#b91b32"
+  },
+  {
+    "id": 7,
+    "name": "Miami (FL) Hurricanes",
+    "stars": 5,
+    "conference": "ACC",
+    "color": "#ed641b"
+  },
+  {
+    "id": 8,
+    "name": "NC State Wolfpack",
+    "stars": 3,
+    "conference": "ACC",
+    "color": "#c11a32"
+  },
+  {
+    "id": 9,
+    "name": "North Carolina Tar Heels",
+    "stars": 3,
+    "conference": "ACC",
+    "color": "#65a4d6"
+  },
+  {
+    "id": 10,
+    "name": "Pittsburgh Panthers",
+    "stars": 4,
+    "conference": "ACC",
+    "color": "#154987"
+  },
+  {
+    "id": 11,
+    "name": "SMU Mustangs",
+    "stars": 4,
+    "conference": "ACC",
+    "color": "#b72738"
+  },
+  {
+    "id": 12,
+    "name": "Stanford Cardinal",
+    "stars": 3,
+    "conference": "ACC",
+    "color": "#8f243d"
+  },
+  {
+    "id": 13,
+    "name": "Syracuse Orange",
+    "stars": 3,
+    "conference": "ACC",
+    "color": "#ee651b"
+  },
+  {
+    "id": 14,
+    "name": "Virginia Cavaliers",
+    "stars": 3,
+    "conference": "ACC",
+    "color": "#ed711b"
+  },
+  {
+    "id": 15,
+    "name": "Virginia Tech Hokies",
+    "stars": 3,
+    "conference": "ACC",
+    "color": "#791b39"
+  },
+  {
+    "id": 16,
+    "name": "Wake Forest Demon Deacons",
+    "stars": 4,
+    "conference": "ACC",
+    "color": "#a99b69"
+  },
+  {
+    "id": 17,
+    "name": "Illinois Fighting Illini",
+    "stars": 3,
+    "conference": "BIG TEN",
+    "color": "#961b32"
+  },
+  {
+    "id": 18,
+    "name": "Indiana Hoosiers",
+    "stars": 5,
+    "conference": "BIG TEN",
+    "color": "#064d36"
+  },
+  {
+    "id": 19,
+    "name": "Iowa Hawkeyes",
+    "stars": 3,
+    "conference": "BIG TEN",
+    "color": "#ee6b13"
+  },
+  {
+    "id": 20,
+    "name": "Maryland Terrapins",
+    "stars": 1,
+    "conference": "BIG TEN",
+    "color": "#133c8b"
+  },
+  {
+    "id": 21,
+    "name": "Michigan Wolverines",
+    "stars": 5,
+    "conference": "BIG TEN",
+    "color": "#742a3b"
+  },
+  {
+    "id": 22,
+    "name": "Michigan State Spartans",
+    "stars": 3,
+    "conference": "BIG TEN",
+    "color": "#b29243"
+  },
+  {
+    "id": 23,
+    "name": "Minnesota Golden Gophers",
+    "stars": 2,
+    "conference": "BIG TEN",
+    "color": "#b91b32"
+  },
+  {
+    "id": 24,
+    "name": "Nebraska Cornhuskers",
+    "stars": 3,
+    "conference": "BIG TEN",
+    "color": "#ed641b"
+  },
+  {
+    "id": 25,
+    "name": "Northwestern Wildcats",
+    "stars": 1,
+    "conference": "BIG TEN",
+    "color": "#c11a32"
+  },
+  {
+    "id": 26,
+    "name": "Ohio State Buckeyes",
+    "stars": 5,
+    "conference": "BIG TEN",
+    "color": "#65a4d6"
+  },
+  {
+    "id": 27,
+    "name": "Oregon Ducks",
+    "stars": 5,
+    "conference": "BIG TEN",
+    "color": "#154987"
+  },
+  {
+    "id": 28,
+    "name": "Penn State Nittany Lions",
+    "stars": 4,
+    "conference": "BIG TEN",
+    "color": "#b72738"
+  },
+  {
+    "id": 29,
+    "name": "Purdue Boilermakers",
+    "stars": 2,
+    "conference": "BIG TEN",
+    "color": "#8f243d"
+  },
+  {
+    "id": 30,
+    "name": "Rutgers Scarlet Knights",
+    "stars": 1,
+    "conference": "BIG TEN",
+    "color": "#ee651b"
+  },
+  {
+    "id": 31,
+    "name": "UCLA Bruins",
+    "stars": 5,
+    "conference": "BIG TEN",
+    "color": "#ed711b"
+  },
+  {
+    "id": 32,
+    "name": "USC Trojans",
+    "stars": 4,
+    "conference": "BIG TEN",
+    "color": "#791b39"
+  },
+  {
+    "id": 33,
+    "name": "Washington Huskies",
+    "stars": 3,
+    "conference": "BIG TEN",
+    "color": "#a99b69"
+  },
+  {
+    "id": 34,
+    "name": "Wisconsin Badgers",
+    "stars": 3,
+    "conference": "BIG TEN",
+    "color": "#961b32"
+  },
+  {
+    "id": 35,
+    "name": "Alabama Crimson Tide",
+    "stars": 5,
+    "conference": "SEC",
+    "color": "#064d36"
+  },
+  {
+    "id": 36,
+    "name": "Arkansas Razorbacks",
+    "stars": 2,
+    "conference": "SEC",
+    "color": "#ee6b13"
+  },
+  {
+    "id": 37,
+    "name": "Auburn Tigers",
+    "stars": 3,
+    "conference": "SEC",
+    "color": "#133c8b"
+  },
+  {
+    "id": 38,
+    "name": "Florida Gators",
+    "stars": 4,
+    "conference": "SEC",
+    "color": "#742a3b"
+  },
+  {
+    "id": 39,
+    "name": "Georgia Bulldogs",
+    "stars": 5,
+    "conference": "SEC",
+    "color": "#b29243"
+  },
+  {
+    "id": 40,
+    "name": "Kentucky Wildcats",
+    "stars": 4,
+    "conference": "SEC",
+    "color": "#b91b32"
+  },
+  {
+    "id": 41,
+    "name": "LSU Tigers",
+    "stars": 5,
+    "conference": "SEC",
+    "color": "#ed641b"
+  },
+  {
+    "id": 42,
+    "name": "Mississippi State Bulldogs",
+    "stars": 3,
+    "conference": "SEC",
+    "color": "#c11a32"
+  },
+  {
+    "id": 43,
+    "name": "Missouri Tigers",
+    "stars": 3,
+    "conference": "SEC",
+    "color": "#65a4d6"
+  },
+  {
+    "id": 44,
+    "name": "Oklahoma Sooners",
+    "stars": 3,
+    "conference": "SEC",
+    "color": "#154987"
+  },
+  {
+    "id": 45,
+    "name": "Ole Miss Rebels",
+    "stars": 3,
+    "conference": "SEC",
+    "color": "#b72738"
+  },
+  {
+    "id": 46,
+    "name": "South Carolina Gamecocks",
+    "stars": 3,
+    "conference": "SEC",
+    "color": "#8f243d"
+  },
+  {
+    "id": 47,
+    "name": "Tennessee Volunteers",
+    "stars": 4,
+    "conference": "SEC",
+    "color": "#ee651b"
+  },
+  {
+    "id": 48,
+    "name": "Texas Longhorns",
+    "stars": 5,
+    "conference": "SEC",
+    "color": "#ed711b"
+  },
+  {
+    "id": 49,
+    "name": "Texas A&M Aggies",
+    "stars": 3,
+    "conference": "SEC",
+    "color": "#791b39"
+  },
+  {
+    "id": 50,
+    "name": "Vanderbilt Commodores",
+    "stars": 3,
+    "conference": "SEC",
+    "color": "#a99b69"
+  },
+  {
+    "id": 51,
+    "name": "Notre Dame",
+    "stars": 5,
+    "conference": "INDEPENDENT",
+    "color": "#961b32"
+  },
+  {
+    "id": 52,
+    "name": "Arizona Wildcats",
+    "stars": 2,
+    "conference": "Big 12",
+    "color": "#064d36"
+  },
+  {
+    "id": 53,
+    "name": "Arizona State Sun Devils",
+    "stars": 2,
+    "conference": "Big 12",
+    "color": "#ee6b13"
+  },
+  {
+    "id": 54,
+    "name": "Baylor Bears",
+    "stars": 2,
+    "conference": "Big 12",
+    "color": "#133c8b"
+  },
+  {
+    "id": 55,
+    "name": "BYU Cougars",
+    "stars": 4,
+    "conference": "Big 12",
+    "color": "#742a3b"
+  },
+  {
+    "id": 56,
+    "name": "Cincinnati Bearcats",
+    "stars": 2,
+    "conference": "Big 12",
+    "color": "#b29243"
+  },
+  {
+    "id": 57,
+    "name": "Colorado Buffaloes",
+    "stars": 2,
+    "conference": "Big 12",
+    "color": "#b91b32"
+  },
+  {
+    "id": 58,
+    "name": "Houston Cougars",
+    "stars": 2,
+    "conference": "Big 12",
+    "color": "#ed641b"
+  },
+  {
+    "id": 59,
+    "name": "Iowa State Cyclones",
+    "stars": 2,
+    "conference": "Big 12",
+    "color": "#c11a32"
+  },
+  {
+    "id": 60,
+    "name": "Kansas Jayhawks",
+    "stars": 2,
+    "conference": "Big 12",
+    "color": "#65a4d6"
+  },
+  {
+    "id": 61,
+    "name": "Kansas State Wildcats",
+    "stars": 2,
+    "conference": "Big 12",
+    "color": "#154987"
+  },
+  {
+    "id": 62,
+    "name": "Oklahoma State Cowboys",
+    "stars": 2,
+    "conference": "Big 12",
+    "color": "#b72738"
+  },
+  {
+    "id": 63,
+    "name": "TCU Horned Frogs",
+    "stars": 2,
+    "conference": "Big 12",
+    "color": "#8f243d"
+  },
+  {
+    "id": 64,
+    "name": "Texas Tech Red Raiders",
+    "stars": 2,
+    "conference": "Big 12",
+    "color": "#ee651b"
+  },
+  {
+    "id": 65,
+    "name": "UCF Knights",
+    "stars": 2,
+    "conference": "Big 12",
+    "color": "#ed711b"
+  },
+  {
+    "id": 66,
+    "name": "Utah Utes",
+    "stars": 4,
+    "conference": "Big 12",
+    "color": "#791b39"
+  },
+  {
+    "id": 67,
+    "name": "West Virginia Mountaineers",
+    "stars": 3,
+    "conference": "Big 12",
+    "color": "#a99b69"
+  }
+]

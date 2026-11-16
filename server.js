@@ -1,0 +1,21 @@
+import express from 'express';
+import {createServer} from 'node:http';
+import {Server} from 'socket.io';
+import {randomBytes} from 'node:crypto';
+import {readFileSync} from 'node:fs';
+import {createGame,step,command} from './public/sim.js';
+const app=express(),http=createServer(app),io=new Server(http,{maxHttpBufferSize:8192});
+const teams=JSON.parse(readFileSync(new URL('./public/teams.json',import.meta.url)));
+app.get('/health',(q,r)=>r.json({ok:true}));app.use('/vendor',express.static('node_modules/three/build'));app.use(express.static('public'));
+const rooms=new Map();
+io.on('connection',socket=>{
+ let room=null,seat=-1,last=0;
+ const leave=()=>{if(room){io.to(room.code).emit('notice','Opponent disconnected. Return home to create a new room.');for(const id of room.ids)io.sockets.sockets.get(id)?.leave(room.code);rooms.delete(room.code);room=null;}};
+ socket.on('create',({team}={})=>{if(room)return;let code=randomBytes(3).toString('hex').toUpperCase();room={code,ids:[socket.id],teams:[teams[Number(team)]||teams[0]],inputs:[{},{}],game:null};seat=0;rooms.set(code,room);socket.join(code);socket.emit('room',{code,seat});});
+ socket.on('join',({code,team}={})=>{if(room)return;const r=rooms.get(String(code).toUpperCase());if(!r||r.ids.length!==1)return socket.emit('notice','Room unavailable.');room=r;seat=1;room.ids.push(socket.id);room.teams.push(teams[Number(team)]||teams[1]);socket.join(room.code);socket.emit('room',{code:room.code,seat});room.game=createGame(...room.teams);io.to(room.code).emit('start',room.game);});
+ socket.on('input',input=>{if(!room?.game||!input)return;room.inputs[seat]={x:Math.max(-1,Math.min(1,Number(input.x)||0)),y:Math.max(-1,Math.min(1,Number(input.y)||0)),sprint:!!input.sprint};});
+ socket.on('command',({action,value}={})=>{if(!room?.game||Date.now()-last<65)return;last=Date.now();command(room.game,seat,action,value);});
+ socket.on('leave',leave);socket.on('disconnect',leave);
+});
+setInterval(()=>{for(const r of rooms.values())if(r.game){step(r.game,1/30,r.inputs,[true,true]);io.to(r.code).emit('state',r.game);}},1000/30);
+http.listen(process.env.PORT||3000,'0.0.0.0',()=>console.log('Saturday Legends listening'));
